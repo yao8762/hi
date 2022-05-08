@@ -17,4 +17,4 @@ while True:
 		print('猜錯啦在小一點')
 	else:
 		print(f'請輸入 {r_min} 到 {r_max} 的數字!')
-print(f'你一共猜了{i}次喔')
+print(f'你一共猜了 {i} 次喔')
