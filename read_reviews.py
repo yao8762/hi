@@ -13,3 +13,11 @@ for d in data:
 	totle += len(d)
 
 print(f'檔案讀取完畢，總共有{len(data)}筆資料, 留言的平均長度為: {totle/len(data)}')
+
+new = []
+
+for d in data:
+	if len(d) < 100:
+		new.append(d)
+print(f'總共有 {len(new)} 比留言長度小於100')
+print(new[0])
